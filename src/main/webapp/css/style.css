@@ -67,6 +67,7 @@ table, tr, th, td {
 h1 a {
     color: #eeeeee;
 }
+
 table {
     width: 100%;
     table-layout: fixed;
@@ -90,6 +91,7 @@ button {
 #footer {
     text-align: center;
 }
+
 #flush_success {
     width: 100%;
     padding-top: 28px;
@@ -99,6 +101,7 @@ button {
     color: #155724;
     background-color: #d4edda;
 }
+
 #flush_error {
     width: 100%;
     padding-top: 28px;
@@ -108,6 +111,7 @@ button {
     color: #721c24;
     background-color: #f8d7da;
 }
+
 table#employee_list th {
     width: 30%;
     padding: 10px 2%;
@@ -121,12 +125,15 @@ table#employee_list td {
 tr.row1 {
         background-color: #f2f2f2;
 }
+
 tr.row0 {
         background-color: #ffffff;
 }
+
 select {
     height: 30px;
 }
+
 #header_menu {
     width: 57%;
     padding-top: 17px;
@@ -148,4 +155,24 @@ select {
 
 h1 a {
     color: #eeeeee;
+}
+table#report_list th {
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#report_list .report_name {
+    width: 20%;
+    padding: 10px 2%;
+}
+table#report_list .report_date {
+    width: 20%;
+}
+
+table#report_list .report_title {
+    width: 37%;
+}
+
+table#report_list .report_action {
+    width: 13%;
 }
